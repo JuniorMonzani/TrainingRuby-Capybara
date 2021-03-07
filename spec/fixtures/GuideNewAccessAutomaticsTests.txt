@@ -1,0 +1,15 @@
+Como executar o projeto de forma organizada e orientada?
+
+Arquivo init_spec importa as classes dos outros arquivos _spec e usa os métodos para realizar os testes.
+
+login_spec
+	Classe deve conter a chamada do browser com o Acesso em nuvem.
+	Deve ter um método que receba usuário que não existe e senha e valide o retorno.
+	Deve ter um método que receba usuário válido e senha incorreta e valide o retorno.
+	Deve ter um método que recebe por digitação a senha de um usuário existente para acessar o sistema.
+	
+systemConfiguration_spec
+	Deve contem um método com a chamada à página e verificação de alguns itens da mesma como título.
+	Deve conter testes de dropbox e campos diversos.
+	
+managerCommunication
