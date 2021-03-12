@@ -22,6 +22,6 @@ describe 'Caixas de seleção', :checkbox do
   end
 
   after(:each) do
-    sleep 2
+    sleep 1
   end
 end

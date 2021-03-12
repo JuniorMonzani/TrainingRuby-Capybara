@@ -13,6 +13,6 @@ describe 'Selecionando radio buttons', :radio do
   end
 
   after(:each) do
-    sleep 2
+    sleep 1
   end
 end

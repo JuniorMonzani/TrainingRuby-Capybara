@@ -24,6 +24,6 @@ describe 'Mouse hovers', :hovers do
   end
 
   after(:each) do
-    sleep 0.5
+    sleep 1
   end
 end

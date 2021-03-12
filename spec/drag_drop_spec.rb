@@ -14,4 +14,8 @@ describe 'Drag and Drop', :dragDrop do
     expect(stark).to have_css   'img[alt$=Aranha]'
     expect(cap).not_to have_css 'img[alt$=Aranha]'
   end
+
+  after(:each) do
+    sleep 1
+  end
 end

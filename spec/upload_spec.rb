@@ -24,6 +24,6 @@ describe 'Upload', :upload do
   end
 
   after(:each) do
-    sleep 3
+    sleep 2
   end
 end
