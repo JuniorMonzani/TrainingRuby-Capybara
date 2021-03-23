@@ -18,7 +18,9 @@ end
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  
+  #abre o navegador em memória e executa os testes
+  #config.default_driver = :selenium_chrome_headless
+    
   #ajute de tempo para o capybara encontrr o elemento
   config.default_max_wait_time = 5
 end
